@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "936dc23f75c1aa7cd1ebe1d6f7f19d15d1657104",
+    "author": "ropenscibot <myrmecocystus+ropenscibot@gmail.com>",
+    "time": "2019-12-09 12:01:20",
+    "files": 1,
+    "merge": false,
+    "message": "Add links to official docs site.\nFor more details: https://ropensci.org/technotes/2019/06/07/ropensci-docs/\n"
+  },
+  "remote": "https://github.com/ropensci/aRxiv",
+  "pkg": "aRxiv"
+}

@@ -1,0 +1,10 @@
+pandoc: '2.5'
+pkgdown: 1.6.1
+pkgdown_sha: ~
+articles:
+  aRxiv: aRxiv.html
+last_built: 2021-03-15T13:56Z
+urls:
+  reference: https://docs.ropensci.org/aRxiv/reference
+  article: https://docs.ropensci.org/aRxiv/articles
+
