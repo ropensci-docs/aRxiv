@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "f664b1e7b60729ebba2f65bbd8f502662cc27a56",
+    "author": "Karl Broman <kbroman@gmail.com>",
+    "time": "2024-02-29 17:40:42",
+    "files": 7,
+    "merge": true,
+    "message": "Merge pull request #62 from kbroman/cran\n\nNew version to CRAN"
+  },
+  "repo": "https://github.com/ropensci/aRxiv",
+  "pkg": "aRxiv"
+}
