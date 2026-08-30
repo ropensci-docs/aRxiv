@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "16871f67c7c4217c8c2f09ff0c7ea6447343de51",
+    "author": "Karl Broman <kbroman@gmail.com>",
+    "time": "2026-06-17T12:27:15Z",
+    "files": 7,
+    "merge": false,
+    "message": "In tests, remove code setting aRxiv_delay\n\n- unnecessary, as default is 3 sec\n\n- previously would set to a smaller amount, but that was giving \"too\n  many requests\" errors. Revise to set to 3 sec, but that's the default,\n  so all that code is unnecessary\n"
+  },
+  "repo": "https://github.com/ropensci/aRxiv",
+  "pkg": "aRxiv",
+  "time": "2026-08-30T07:26:24Z"
+}
