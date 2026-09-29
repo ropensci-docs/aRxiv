@@ -1,0 +1,50 @@
+# Count number of results for a given search
+
+Count the number of results for a given search. Useful to check before
+attempting to pull down a very large number of records.
+
+## Usage
+
+``` r
+arxiv_count(query = NULL, id_list = NULL)
+```
+
+## Arguments
+
+- query:
+
+  Search pattern as a string; a vector of such strings is also allowed,
+  in which case the elements are combined with `AND`.
+
+- id_list:
+
+  arXiv doc IDs, as comma-delimited string or a vector of such strings
+
+## Value
+
+Number of results (integer). An attribute `"search_info"` contains
+information about the search parameters and the time at which it was
+performed.
+
+## See also
+
+[`arxiv_search()`](https://docs.ropensci.org/aRxiv/reference/arxiv_search.md),
+[`query_terms()`](https://docs.ropensci.org/aRxiv/reference/query_terms.md),
+[`arxiv_cats()`](https://docs.ropensci.org/aRxiv/reference/arxiv_cats.md)
+
+## Examples
+
+``` r
+# \donttest{
+if(interactive()) {
+    # count papers in category stat.AP (applied statistics)
+    arxiv_count(query = "cat:stat.AP")
+
+    # count papers by Peter Hall in any stat category
+    arxiv_count(query = 'au:"Peter Hall" AND cat:stat*')
+
+    # count papers for a range of dates
+    #    here, everything in 2013
+    arxiv_count("submittedDate:[2013 TO 2013]")
+} # }
+```
